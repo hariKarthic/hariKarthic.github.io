@@ -2,27 +2,24 @@
 
 body {
     font-family: "Roboto", "Segoe UI", sans-serif;
-
+    background-color: #131810;
 }
 
 .mainsection {
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    background-color: #131810;
+    width: 100vw;
+    height: 100vh;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-content: center;
 
 }
 
-.header-nothing {
+.header {
     font-family: "Bungee Shade", "Segoe UI", sans-serif;
+    position:relative;
     font-size: 5rem;
-    width: 75%;
+    cursor: pointer;
     margin: 0 auto;
     color: #fff;
     animation-name: groovy;
@@ -31,7 +28,27 @@ body {
     animation-timing-function: ease-in;
     animation-direction: alternate;
     animation-iteration-count: infinite;
+}
 
+.header-nothing {
+    opacity: 1;
+}
+
+.header-yet {
+    opacity: 0;
+    position:absolute;
+    top:0;
+    float:right;
+}
+
+.header:hover > .header-yet {
+    opacity: 1;
+    transition: opacity 500ms ease-out;
+}
+
+.header:hover > .header-nothing {
+    opacity: 0;
+    transition: opacity 500ms ease-out;
 }
 
 @keyframes groovy {
