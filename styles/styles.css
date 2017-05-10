@@ -1,0 +1,48 @@
+@import "normalize.css";
+
+body {
+    font-family: "Roboto", "Segoe UI", sans-serif;
+
+}
+
+.mainsection {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: #131810;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+
+}
+
+.header-nothing {
+    font-family: "Bungee Shade", "Segoe UI", sans-serif;
+    font-size: 5rem;
+    width: 75%;
+    margin: 0 auto;
+    color: #fff;
+    animation-name: groovy;
+    animation-delay: 200ms;
+    animation-duration: 1500ms;
+    animation-timing-function: ease-in;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes groovy {
+    0% {
+        color: #00FFFF
+    }
+    50% {
+        color: #fff;
+    }
+
+    100% {
+        color: #ff0000;
+    }
+}
