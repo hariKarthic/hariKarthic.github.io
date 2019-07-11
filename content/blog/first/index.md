@@ -1,7 +1,7 @@
 ---
 title: Hello, there Mindy*
 date: "2019-07-11T06:15:26.328Z"
-description: This is a custom description for SEO and Open Graph purposes, rather than the default generated excerpt. Simply add a description field to the frontmatter.
+description: One step at a time !
 ---
 
 Welp, i am sure this is bout to get interesting, been trying to get into tech writing for a while and things like tech stack,choice of frameworks,day commitments made me push it off for sometime.
