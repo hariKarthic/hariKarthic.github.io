@@ -2,6 +2,7 @@
 title: Hello, there Mindy*
 date: "2019-07-11T06:15:26.328Z"
 description: One step at a time !
+tags: ['non-tech','tech']
 ---
 
 Welp, i am sure this is bout to get interesting, been trying to get into tech writing for a while and things like tech stack,choice of frameworks,day commitments made me push it off for sometime.
