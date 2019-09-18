@@ -46,10 +46,11 @@ class BlogIndex extends React.Component {
 export default BlogIndex
 
 export const pageQuery = graphql`
-  query {
+  query BlogList{
     site {
       siteMetadata {
         title
+        author
       }
     }
     allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
