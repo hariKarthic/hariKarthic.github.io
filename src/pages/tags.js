@@ -20,7 +20,7 @@ const TagsPage = ({
     },
   },
 }) => (
-    <Layout location={this.props.location} title={title}>
+    <Layout location='\' title={title}>
     <SEO title="All posts" />
     <Helmet title={title} />
     <div>
@@ -59,7 +59,7 @@ TagsPage.propTypes = {
 export default TagsPage
 
 export const pageQuery = graphql`
-  query {
+  query SiteAndMarkDownData{
     site {
       siteMetadata {
         title
